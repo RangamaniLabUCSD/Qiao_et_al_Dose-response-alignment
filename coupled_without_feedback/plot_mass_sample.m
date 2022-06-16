@@ -1,5 +1,5 @@
 function plot_mass_sample 
-% This function is to plot the typical figure of DoRA vs mG level.
+% This function is to plot trends of DoRA metric
 
 
 % Initial Conditions
