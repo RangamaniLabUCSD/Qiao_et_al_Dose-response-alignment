@@ -3,7 +3,7 @@ set(0,'DefaultAxesFontSize',20,'DefaultAxesFontWeight','bold');
 set(0,'DefaultTextFontSize',20,'DefaultTextFontWeight','bold');
 
 
-%% plot DoRA metric vs mG level(the middle panel in Figure 2B)
+%% plot DoRA trend vs mG level(the middle panel in Figure 2B)
 load server_mass_mGAP
 
 ss_initial=[];  trend_mg=[];  trend_tg=[];
@@ -48,7 +48,7 @@ xlim([0.2 1])
 
 
 
-%% plot DoRA trend vs mG level(the bottom panel in Figure 2B)
+%% plot DoRA metric vs mG level(the bottom panel in Figure 2B)
 load server_mass_mGAP
 
 dist_mg=[]; dist_tg=[]; ss_mg=[]; 
