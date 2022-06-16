@@ -3,7 +3,7 @@ set(0,'DefaultLineLineWidth',1);
 set(0,'DefaultAxesFontSize',20,'DefaultAxesFontWeight','bold');
 set(0,'DefaultTextFontSize',20,'DefaultTextFontWeight','bold');
 
-%% plot DoRA metric vs mG level(the middle panel in Figure 2D)
+%% plot DoRA trend vs mG level(the middle panel in Figure 2D)
 load server_Hill_tG_0dot01_mGAP; dist_ktG0dot01=dist;  ss_ktG0dot01=ss;
 
 load server_Hill_tG_1_mGAP;  dist_ktG1=dist;  ss_ktG1=ss;
@@ -59,7 +59,7 @@ xlim([0 1])
 
 
 
-%% plot DoRA trend vs mG level(the bottom panel in Figure 2D)
+%% plot DoRA metric vs mG level(the bottom panel in Figure 2D)
 var_name_d={'dist_ktG0dot01','dist_ktG1','dist_ktG10'};
 var_name_s={'ss_ktG0dot01','ss_ktG1','ss_ktG10'};
 dist_mg=[]; dist_tg=[]; ss_mg=[]; 
